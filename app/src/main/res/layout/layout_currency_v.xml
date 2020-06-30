@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:background="@color/colorBlack"
+        android:id="@+id/rl_mediaWrapperLayoutCurrencyV"
+        android:layout_width="match_parent"
+        android:layout_height="405dp">
+
+        <ImageView
+            android:id="@+id/imgV_ImageLayoutCurrencyV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/exclam"
+            android:visibility="visible" />
+
+        <VideoView
+            android:id="@+id/vidV_VideoLayoutCurrencyV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/home_ac_hdmi"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:background="@color/colorBlack"
+        android:focusable="false"
+        android:focusableInTouchMode="false">
+
+        <TextView
+            android:id="@+id/home_ac_video_hdmi_nosigle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="2dip"
+            android:text="No HDMI IN Signal"
+            android:textColor="#ffffff"
+            android:textSize="32sp" />
+
+        <RelativeLayout
+            android:id="@+id/home_ac_video_hdmi_textureView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webV_ProductLayoutCurrencyV"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_above="@+id/webV_CurrencyLayoutCurrencyV"
+        android:background="@color/colorBlack">
+
+    </WebView>
+
+    <WebView
+        android:id="@+id/webV_CurrencyLayoutCurrencyV"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignParentBottom="true">
+
+    </WebView>
+
+</RelativeLayout>

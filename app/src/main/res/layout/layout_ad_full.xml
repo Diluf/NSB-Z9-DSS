@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wrapper_layout_ad_full"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorBlack"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rl_imgVWrapperLayoutAdFull"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:layout_centerInParent="true"
+            android:id="@+id/vid_MyFullLayoutAdFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/img_MyFullLayoutAdFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
